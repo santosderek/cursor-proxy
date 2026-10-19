@@ -28,19 +28,31 @@ export type AppOptions = {
 
 const CURSOR_MODELS = [
   {
-    id: "cursor-acp/auto",
+    id: "auto",
     object: "model",
     created: 0,
     owned_by: "cursor",
   },
   {
-    id: "composer-2.5",
+    id: "gpt-5.3-codex",
     object: "model",
     created: 0,
     owned_by: "cursor",
   },
   {
-    id: "composer-2.5-fast",
+    id: "gpt-5.6-sol-high",
+    object: "model",
+    created: 0,
+    owned_by: "cursor",
+  },
+  {
+    id: "claude-sonnet-5-thinking-high",
+    object: "model",
+    created: 0,
+    owned_by: "cursor",
+  },
+  {
+    id: "gemini-3.7-flash-high",
     object: "model",
     created: 0,
     owned_by: "cursor",

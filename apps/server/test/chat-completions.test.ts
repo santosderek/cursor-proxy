@@ -36,9 +36,11 @@ describe("chat completions API", () => {
     expect(response.status).toBe(200)
     const body = await response.json()
     expect(body.data.map((model: { readonly id: string }) => model.id)).toEqual([
-      "cursor-acp/auto",
-      "composer-2.5",
-      "composer-2.5-fast",
+      "auto",
+      "gpt-5.3-codex",
+      "gpt-5.6-sol-high",
+      "claude-sonnet-5-thinking-high",
+      "gemini-3.7-flash-high",
     ])
   })
 

@@ -1,0 +1,21 @@
+apps/runner/src/dev.ts
+  s_489210fea29c91::t_21920a473f562b 20
+apps/server/src/dev.ts
+  s_489210fea29c91::t_fc6e8e3d135bce 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c2a07c5910815db87e9bd414f9dfbaeb0490ce1b",
+  "prompts": {},
+  "sessions": {
+    "s_489210fea29c91": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a151ec-3c28-7731-8de3-fa00630d79fe",
+        "model": "gpt-5.6-sol-low"
+      },
+      "human_author": "Derek Santos <dersanto@cisco.com>"
+    }
+  }
+}

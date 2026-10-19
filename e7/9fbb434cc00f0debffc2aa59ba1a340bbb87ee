@@ -1,0 +1,21 @@
+apps/server/test/chat-completions.test.ts
+  s_489210fea29c91::t_2976ef0173be5d 39-43
+apps/server/src/app.ts
+  s_489210fea29c91::t_8dc80b87023e10 31,37,43-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e79fbb434cc00f0debffc2aa59ba1a340bbb87ee",
+  "prompts": {},
+  "sessions": {
+    "s_489210fea29c91": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a151ec-3c28-7731-8de3-fa00630d79fe",
+        "model": "gpt-5.6-sol-low"
+      },
+      "human_author": "Derek Santos <dersanto@cisco.com>"
+    }
+  }
+}

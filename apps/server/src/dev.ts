@@ -16,6 +16,7 @@ const runner =
 const app = createApp(runner === undefined ? {} : { runner })
 
 serve({
+  hostname: "127.0.0.1",
   port,
   fetch: app.fetch,
   idleTimeout: CURSOR_STREAM_IDLE_TIMEOUT_SECONDS,

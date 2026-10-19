@@ -33,6 +33,7 @@ function commandFor(request: RunnerRequest, options: CursorRunnerOptions): reado
     options.cursorBinary,
     ...(options.cursorAgentDirect ? [] : ["agent"]),
     "--print",
+    "--trust",
     "--mode",
     "ask",
     "--output-format",

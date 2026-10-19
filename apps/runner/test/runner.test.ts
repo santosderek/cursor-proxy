@@ -64,6 +64,7 @@ describe("cursor runner", () => {
       "cursor",
       "agent",
       "--print",
+      "--trust",
       "--mode",
       "ask",
       "--output-format",
@@ -109,6 +110,7 @@ describe("cursor runner", () => {
     expect(calls[0]?.command).toEqual([
       "cursor-agent",
       "--print",
+      "--trust",
       "--mode",
       "ask",
       "--output-format",
